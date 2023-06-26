@@ -8,7 +8,7 @@ The easiest way to run the project is by using the Ktor-plugin in IntelliJ.
 If not, you could use Gradle or Maven directly, as described [here](https://ktor.io/docs/running.html#package)
 
 ## 
-- I follow the prinicple of "Parse, don't validate"
+- I follow the principle of ["Parse, don't validate"](https://lexi-lambda.github.io/blog/2019/11/05/parse-don-t-validate/)
 - GBFS is accepted as is, and then converting to the domain language. 
   - StationID is returned from Oslo Bysykkel as a String and therefore used as a String
   - Docs online are outdated. Some ints are now bools
